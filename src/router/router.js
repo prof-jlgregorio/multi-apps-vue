@@ -1,9 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
 // Importe seus componentes de rota
-import Home from '@/views/Home/Home.vue';
-import About from '@/views/About/About.vue';
+import Home from '@/views/Home/Home.vue'
+import About from '@/views/About/About.vue'
 import TodoList from '@/views/TodoList/TodoList.vue'
+import ViaCep from '@/views/ViaCep/ViaCep.vue'
+//..not found
 import NotFound from '@/views/NotFound/NotFound.vue'
 
 
@@ -22,6 +24,11 @@ const routes = [
     path: '/todolist',
     name: 'TodoList',
     component: TodoList
+  },
+  {
+    path: '/viacep',
+    name: 'ViaCep',
+    component: ViaCep
   },
   {
     path: '/:catchAll(.*)',

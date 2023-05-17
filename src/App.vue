@@ -11,6 +11,9 @@
         <router-link to="/todolist">Lista de Tarefas</router-link>
       </li>
       <li>
+        <router-link to="/viacep">Verificar CEP</router-link>
+      </li>
+      <li>
         <router-link to="/about">Sobre</router-link>
       </li>
     </ul>
